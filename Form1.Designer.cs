@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbx_mTotal = new System.Windows.Forms.TextBox();
@@ -54,15 +53,14 @@
             this.tbx_folio = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.tbx_cant = new System.Windows.Forms.TextBox();
             this.tbx_pUnitario = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tbx_articulo = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.facturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facturasIngresadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,6 +68,9 @@
             this.cargaMasivaFacturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarFacturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.moduloDeConsultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportarConsultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pDFToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarFacturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -84,45 +85,26 @@
             this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imrprimirFacturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.personalizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportarConsultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pDFToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personalizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.soporteTecnicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comentariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novedadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(394, 525);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Guardar factura";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -356,7 +338,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.pictureBox5);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.button2);
@@ -373,15 +354,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Detalles de la factura";
             // 
-            // button2
+            // textBox1
             // 
-            this.button2.Location = new System.Drawing.Point(337, 29);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 49);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Agregar Producto";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.textBox1.Location = new System.Drawing.Point(108, 99);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(346, 80);
+            this.textBox1.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(7, 111);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(80, 32);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "Descripción\r\nProductos :";
             // 
             // tbx_cant
             // 
@@ -433,26 +422,6 @@
             this.label16.Size = new System.Drawing.Size(55, 16);
             this.label16.TabIndex = 1;
             this.label16.Text = "Articulo:";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(199, 525);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 36);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "limpiar datos";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(15, 525);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 36);
-            this.button4.TabIndex = 20;
-            this.button4.Text = "Salir";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // menuStrip1
             // 
@@ -514,6 +483,27 @@
             this.moduloDeConsultaToolStripMenuItem.Name = "moduloDeConsultaToolStripMenuItem";
             this.moduloDeConsultaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.moduloDeConsultaToolStripMenuItem.Text = "Modulo de Consulta";
+            // 
+            // exportarConsultasToolStripMenuItem
+            // 
+            this.exportarConsultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.excelToolStripMenuItem1,
+            this.pDFToolStripMenuItem1});
+            this.exportarConsultasToolStripMenuItem.Name = "exportarConsultasToolStripMenuItem";
+            this.exportarConsultasToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.exportarConsultasToolStripMenuItem.Text = "Exportar consultas";
+            // 
+            // excelToolStripMenuItem1
+            // 
+            this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
+            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
+            this.excelToolStripMenuItem1.Text = "Excel ";
+            // 
+            // pDFToolStripMenuItem1
+            // 
+            this.pDFToolStripMenuItem1.Name = "pDFToolStripMenuItem1";
+            this.pDFToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
+            this.pDFToolStripMenuItem1.Text = "PDF";
             // 
             // exportarFacturasToolStripMenuItem
             // 
@@ -615,6 +605,18 @@
             this.imrprimirFacturasToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
             this.imrprimirFacturasToolStripMenuItem.Text = "Herramientas";
             // 
+            // opcionesToolStripMenuItem
+            // 
+            this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
+            this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.opcionesToolStripMenuItem.Text = "Opciones";
+            // 
+            // personalizarToolStripMenuItem
+            // 
+            this.personalizarToolStripMenuItem.Name = "personalizarToolStripMenuItem";
+            this.personalizarToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.personalizarToolStripMenuItem.Text = "Personalizar";
+            // 
             // modulosToolStripMenuItem
             // 
             this.modulosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -635,39 +637,6 @@
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
             this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
-            // 
-            // exportarConsultasToolStripMenuItem
-            // 
-            this.exportarConsultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.excelToolStripMenuItem1,
-            this.pDFToolStripMenuItem1});
-            this.exportarConsultasToolStripMenuItem.Name = "exportarConsultasToolStripMenuItem";
-            this.exportarConsultasToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.exportarConsultasToolStripMenuItem.Text = "Exportar consultas";
-            // 
-            // excelToolStripMenuItem1
-            // 
-            this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
-            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
-            this.excelToolStripMenuItem1.Text = "Excel ";
-            // 
-            // pDFToolStripMenuItem1
-            // 
-            this.pDFToolStripMenuItem1.Name = "pDFToolStripMenuItem1";
-            this.pDFToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
-            this.pDFToolStripMenuItem1.Text = "PDF";
-            // 
-            // opcionesToolStripMenuItem
-            // 
-            this.opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
-            this.opcionesToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.opcionesToolStripMenuItem.Text = "Opciones";
-            // 
-            // personalizarToolStripMenuItem
-            // 
-            this.personalizarToolStripMenuItem.Name = "personalizarToolStripMenuItem";
-            this.personalizarToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.personalizarToolStripMenuItem.Text = "Personalizar";
             // 
             // ayudaToolStripMenuItem
             // 
@@ -704,72 +673,66 @@
             this.novedadesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.novedadesToolStripMenuItem.Text = "Novedades";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(7, 111);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 32);
-            this.label9.TabIndex = 20;
-            this.label9.Text = "Descripción\r\nProductos :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(108, 99);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(346, 80);
-            this.textBox1.TabIndex = 21;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Facturacion.Properties.Resources.salida;
-            this.pictureBox4.Location = new System.Drawing.Point(46, 567);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(42, 31);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 25;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Facturacion.Properties.Resources.borrar1;
-            this.pictureBox3.Location = new System.Drawing.Point(231, 567);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(34, 31);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 24;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Facturacion.Properties.Resources.guardar1;
-            this.pictureBox2.Location = new System.Drawing.Point(433, 567);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 31);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 23;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Facturacion.Properties.Resources.amazon_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(169, 27);
+            this.pictureBox1.Image = global::Facturacion.Properties.Resources.amazon1;
+            this.pictureBox1.Location = new System.Drawing.Point(218, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 43);
+            this.pictureBox1.Size = new System.Drawing.Size(91, 51);
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox5
+            // button4
             // 
-            this.pictureBox5.Image = global::Facturacion.Properties.Resources.mas;
-            this.pictureBox5.Location = new System.Drawing.Point(440, 39);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 26;
-            this.pictureBox5.TabStop = false;
+            this.button4.Image = global::Facturacion.Properties.Resources.salir1;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(24, 525);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(120, 46);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "Salir";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Image = global::Facturacion.Properties.Resources.limpiar2;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(199, 525);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(120, 46);
+            this.button3.TabIndex = 19;
+            this.button3.Text = "Limpiar datos";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Image = global::Facturacion.Properties.Resources.agregar;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(337, 29);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(125, 46);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Agregar Producto";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Image = global::Facturacion.Properties.Resources.guardar2;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(370, 525);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 46);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Guardar factura";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -777,9 +740,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(534, 600);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -797,11 +757,7 @@
             this.groupBox2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -881,10 +837,6 @@
         private System.Windows.Forms.ToolStripMenuItem novedadesToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 
