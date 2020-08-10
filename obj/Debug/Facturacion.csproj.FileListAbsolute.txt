@@ -1,0 +1,30 @@
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\bin\Debug\Facturacion.exe.config
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\bin\Debug\Facturacion.exe
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\bin\Debug\Facturacion.pdb
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.csprojAssemblyReference.cache
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.Form1.resources
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.Properties.Resources.resources
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.csproj.GenerateResource.cache
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.csproj.CoreCompileInputs.cache
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.exe
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\Facturacion\obj\Debug\Facturacion.pdb
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\bin\Debug\Facturacion.exe.config
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\bin\Debug\Facturacion.exe
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\bin\Debug\Facturacion.pdb
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.csprojAssemblyReference.cache
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.Form1.resources
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.Properties.Resources.resources
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.csproj.GenerateResource.cache
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.csproj.CoreCompileInputs.cache
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.exe
+D:\andres\AIEP\4.- testing y calidad de software\Facturacion\obj\Debug\Facturacion.pdb
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\bin\Debug\Facturacion.exe.config
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\bin\Debug\Facturacion.exe
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\bin\Debug\Facturacion.pdb
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.csprojAssemblyReference.cache
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.Form1.resources
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.Properties.Resources.resources
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.csproj.GenerateResource.cache
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.exe
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.pdb
