@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anular.Designer.cs">
+      <DependentUpon>Anular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carga Masiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carga Masiva.Designer.cs">
+      <DependentUpon>Carga Masiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas.Designer.cs">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anular.resx">
+      <DependentUpon>Anular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carga Masiva.resx">
+      <DependentUpon>Carga Masiva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas.resx">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +163,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\amazon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anular1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facturas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

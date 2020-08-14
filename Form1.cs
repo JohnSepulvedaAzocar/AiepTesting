@@ -71,6 +71,27 @@ namespace Facturacion
 
         }
 
+        private void facturasAnuladasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Carga_Masiva F2 = new Carga_Masiva();
+            F2.ShowDialog();
+        }
+
+        private void cargaMasivaFacturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Anular F3 = new Anular();
+            F3.ShowDialog();
+        }
+
+        private void consultarFacturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+        private void moduloDeConsultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Consultas F4 = new Consultas();
+            F4.ShowDialog();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Se ha ingresado la factura con exito"+"\nFolio: " + tbx_folio.Text + "\nPor un monto de: " + totalfac.ToString());

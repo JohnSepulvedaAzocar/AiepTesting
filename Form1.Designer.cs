@@ -55,6 +55,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.tbx_cant = new System.Windows.Forms.TextBox();
             this.tbx_pUnitario = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -98,7 +99,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -372,6 +372,19 @@
             this.label9.TabIndex = 20;
             this.label9.Text = "Descripción\r\nProductos :";
             // 
+            // button2
+            // 
+            this.button2.Image = global::Facturacion.Properties.Resources.agregar;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(337, 29);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(125, 46);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Agregar Producto";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // tbx_cant
             // 
             this.tbx_cant.Location = new System.Drawing.Point(285, 51);
@@ -462,12 +475,14 @@
             this.facturasAnuladasToolStripMenuItem.Name = "facturasAnuladasToolStripMenuItem";
             this.facturasAnuladasToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.facturasAnuladasToolStripMenuItem.Text = "Ingreso masivo Facturas";
+            this.facturasAnuladasToolStripMenuItem.Click += new System.EventHandler(this.facturasAnuladasToolStripMenuItem_Click);
             // 
             // cargaMasivaFacturasToolStripMenuItem
             // 
             this.cargaMasivaFacturasToolStripMenuItem.Name = "cargaMasivaFacturasToolStripMenuItem";
             this.cargaMasivaFacturasToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.cargaMasivaFacturasToolStripMenuItem.Text = "Anular Facturas";
+            this.cargaMasivaFacturasToolStripMenuItem.Click += new System.EventHandler(this.cargaMasivaFacturasToolStripMenuItem_Click);
             // 
             // consultarFacturasToolStripMenuItem
             // 
@@ -477,12 +492,14 @@
             this.consultarFacturasToolStripMenuItem.Name = "consultarFacturasToolStripMenuItem";
             this.consultarFacturasToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.consultarFacturasToolStripMenuItem.Text = "Consultar Facturas";
+            this.consultarFacturasToolStripMenuItem.Click += new System.EventHandler(this.consultarFacturasToolStripMenuItem_Click);
             // 
             // moduloDeConsultaToolStripMenuItem
             // 
             this.moduloDeConsultaToolStripMenuItem.Name = "moduloDeConsultaToolStripMenuItem";
             this.moduloDeConsultaToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.moduloDeConsultaToolStripMenuItem.Text = "Modulo de Consulta";
+            this.moduloDeConsultaToolStripMenuItem.Click += new System.EventHandler(this.moduloDeConsultaToolStripMenuItem_Click);
             // 
             // exportarConsultasToolStripMenuItem
             // 
@@ -708,19 +725,6 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
-            // 
-            this.button2.Image = global::Facturacion.Properties.Resources.agregar;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(337, 29);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 46);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Agregar Producto";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // button1
             // 
             this.button1.Image = global::Facturacion.Properties.Resources.guardar2;
@@ -749,7 +753,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Modulo Facturas";
+            this.Text = "Módulo Facturas";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -802,7 +806,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem facturasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem facturasIngresadasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem facturasAnuladasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cargaMasivaFacturasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
@@ -837,6 +840,7 @@
         private System.Windows.Forms.ToolStripMenuItem novedadesToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ToolStripMenuItem facturasIngresadasToolStripMenuItem;
     }
 }
 

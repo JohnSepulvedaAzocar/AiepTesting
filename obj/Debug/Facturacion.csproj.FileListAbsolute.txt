@@ -28,3 +28,6 @@ C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Fact
 C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.csproj.CoreCompileInputs.cache
 C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.exe
 C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.pdb
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.Carga_Masiva.resources
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.Anular.resources
+C:\Users\John\Desktop\Aiep\Aiep\2020\testing\trabajo1\Facturacion\obj\Debug\Facturacion.Consultas.resources
